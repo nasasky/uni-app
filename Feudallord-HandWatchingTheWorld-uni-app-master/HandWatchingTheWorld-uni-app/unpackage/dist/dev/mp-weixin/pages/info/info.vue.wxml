@@ -1,0 +1,1 @@
+<template name="00f50a7a"><view class="_view 00f50a7a content"><text class="_text 00f50a7a">{{title}}</text><rich-text class="_rich-text 00f50a7a body" nodes="{{info}}"></rich-text></view></template>

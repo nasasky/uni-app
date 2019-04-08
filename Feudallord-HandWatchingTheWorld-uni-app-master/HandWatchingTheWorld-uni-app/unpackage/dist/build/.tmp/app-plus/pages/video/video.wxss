@@ -1,0 +1,55 @@
+
+.box{
+		 -webkit-flex-wrap:  wrap;
+		     -ms-flex-wrap:  wrap;
+		         flex-wrap:  wrap;
+		 width: 750rpx;
+		 padding-left: 13rpx;
+}
+.forlist{
+	
+		width: 48%;
+}
+.one{
+		width: 350rpx;
+		height: 500rpx;
+	    margin-left: 10rpx;
+		margin-top: 10rpx;
+}
+.two{
+		 -webkit-box-flex: 1;
+		 -webkit-flex: 1;
+		     -ms-flex: 1;
+		         flex: 1;
+		 width: 48%;
+		 height: 100rpx;
+}
+	/* .list{
+	 background-color: #FFFFFF;
+	 position: relative;
+	 width: 750upv;
+	 display: flex;
+	 flex-direction: column;
+ }
+ .forlist{
+	  width: 48%
+ }
+	
+	.uni-list{
+		
+	}
+	.uni-list-cell{
+		width: 750upx;
+		height: 500upx;
+	}
+	.view_mv{
+		display: flex;
+		width: 100%;
+		height: 500upx;
+		border: #00B26A solid ;
+	} */
+._video{
+		width: 100%;
+		height: 100%;
+}
+

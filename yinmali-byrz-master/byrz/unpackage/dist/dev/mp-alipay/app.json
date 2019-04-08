@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/contact/contact",
+    "pages/personal/personal",
+    "pages/ISO9001/ISO9001",
+    "pages/ISO20000/ISO20000",
+    "pages/ISO27001/ISO27001"
+  ],
+  "window": {
+    "defaultTitle": "安徽博研认证",
+    "titleBarColor": "#1f73f3",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "textColor": "#333",
+    "selectedColor": "#1f73f3",
+    "backgroundColor": "#fff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/images/icon/index.png",
+        "activeIcon": "static/images/icon/index-selected.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "name": "分类",
+        "icon": "static/images/icon/class.png",
+        "activeIcon": "static/images/icon/class-selected.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "name": "联系我们",
+        "icon": "static/images/icon/contact.png",
+        "activeIcon": "static/images/icon/contact-selected.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "name": "个人中心",
+        "icon": "static/images/icon/person.png",
+        "activeIcon": "static/images/icon/person-selected.png"
+      }
+    ]
+  }
+}

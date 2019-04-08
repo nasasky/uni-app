@@ -1,0 +1,25 @@
+
+.swiper{
+	width:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+}
+.tower-swiper .tower-item {
+	-webkit-transform: scale(calc(0.5 + var(--index) / 10));
+	    -ms-transform: scale(calc(0.5 + var(--index) / 10));
+	        transform: scale(calc(0.5 + var(--index) / 10));
+	margin-left: calc(var(--left) * 100rpx - 150rpx);
+	z-index: var(--index);
+}
+

@@ -1,0 +1,153 @@
+
+.fml-flex {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-flex-wrap: nowrap;
+		    -ms-flex-wrap: nowrap;
+		        flex-wrap: nowrap;
+}
+.flex-1 {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1
+}
+.fml-flex-vertical {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+}
+.fml-flex.flex-start{
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.text-center {
+		text-align: center;
+}
+view {
+		font-size: 28rpx;
+		color: #333;
+}
+.animated {
+		-webkit-animation-duration: 1s;
+		animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both
+}
+@-webkit-keyframes fadeInRight {
+from {
+			opacity: 0;
+			-webkit-transform: translate3d(100%, 0, 0);
+			transform: translate3d(100%, 0, 0)
+}
+to {
+			opacity: 1;
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0)
+}
+}
+@keyframes fadeInRight {
+from {
+			opacity: 0;
+			-webkit-transform: translate3d(100%, 0, 0);
+			transform: translate3d(100%, 0, 0)
+}
+to {
+			opacity: 1;
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0)
+}
+}
+.fadeInRight {
+		-webkit-animation-name: fadeInRight;
+		animation-name: fadeInRight
+}
+
+	/*每个页面公共css */
+
+	/*每个页面公共css */
+page {
+	background: -webkit-gradient(linear, left top, left bottom, from(#1f73f3), to(#0396ff));
+	background: -o-linear-gradient(top, #1f73f3, #0396ff);
+	background: linear-gradient(top, #1f73f3, #0396ff);
+	height: 100%;
+}
+view{
+	color: #fff;
+}
+view.fml-call {
+	border-radius: 8rpx;
+	padding: 6rpx;
+	border: 1px solid #fff;
+	color: #45D7C3;
+	font-size: 25rpx;
+}
+.fml-more {
+	width: 80rpx;
+}
+.fml-contact-info {
+	margin: 100rpx 20rpx 30rpx 20rpx;
+}
+.fml-contact-info .color-green {
+	margin-right: 30rpx;
+}
+.fml-contact-info .fml-flex {
+	margin: 30rpx 0
+}
+.fml-logo-title {
+	color: #fdeb71;
+	font-size: 40rpx;
+	margin: 60rpx 20rpx 40rpx 20rpx;
+}
+.fml-contact {
+	position: fixed;
+	margin: 60rpx;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 16rpx;
+}
+.fml-info {
+	margin: 20rpx;
+}
+.color-green {
+	color: #45d8c3;
+}
+.color-blue {
+	color: #95d75d;
+	margin: 20rpx 0;
+}
+.fml-title {
+	font-size: 28rpx;
+	color: #333;
+	border-bottom: 1px solid #f5f9fc;
+	padding: 10rpx;
+}
+image {
+	width: 100rpx;
+	height: 100rpx;
+}
+.text-left {
+	text-align: left;
+}
+
+
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/contact/contact.js.map*/

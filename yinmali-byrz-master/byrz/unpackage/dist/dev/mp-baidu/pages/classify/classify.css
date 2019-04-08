@@ -1,0 +1,138 @@
+
+.fml-flex {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-flex-wrap: nowrap;
+		    -ms-flex-wrap: nowrap;
+		        flex-wrap: nowrap;
+}
+.flex-1 {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1
+}
+.fml-flex-vertical {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+}
+.fml-flex.flex-start{
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.text-center {
+		text-align: center;
+}
+view {
+		font-size: 28rpx;
+		color: #333;
+}
+.animated {
+		-webkit-animation-duration: 1s;
+		animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both
+}
+@-webkit-keyframes fadeInRight {
+from {
+			opacity: 0;
+			-webkit-transform: translate3d(100%, 0, 0);
+			transform: translate3d(100%, 0, 0)
+}
+to {
+			opacity: 1;
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0)
+}
+}
+@keyframes fadeInRight {
+from {
+			opacity: 0;
+			-webkit-transform: translate3d(100%, 0, 0);
+			transform: translate3d(100%, 0, 0)
+}
+to {
+			opacity: 1;
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0)
+}
+}
+.fadeInRight {
+		-webkit-animation-name: fadeInRight;
+		animation-name: fadeInRight
+}
+
+	/*每个页面公共css */
+
+	/*每个页面公共css */
+.content.fml-flex {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+}
+.detail-info {
+	padding: 12rpx;
+	background: #fff;
+	margin: 30rpx 0;
+	border-radius: 6rpx;
+}
+.class-detail {
+	margin-right: 40rpx;
+	overflow: hidden;
+	margin-left: 270rpx;
+}
+.info-list {
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+page {
+	background: #f5f9fc;
+}
+.class-menu {
+	background: #fff;
+	margin-right: 40rpx;
+	width: 240rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.menu-title {
+	padding: 30rpx;
+	border-bottom: 1px solid #f5f9fc
+}
+.menu-title.active {
+	background: #f5f9fc
+}
+image {
+	width: 30rpx;
+	height: 30rpx;
+	margin-right: 15rpx;
+}
+
+
+
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/classify/classify.js.map*/

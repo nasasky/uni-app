@@ -1,0 +1,131 @@
+.cus-danger {
+	font-size: 30upx;
+	color: #fe3b35;
+	height: 40upx;
+	line-height: 40upx;
+	background-color: #feeeee;
+	align-self: center;
+	padding: 6upx 20upx;
+	border-radius: 6upx;
+}
+
+.cus-default {
+	line-height: 40upx;
+	height: 40upx;
+	padding: 6upx 20upx;
+	background-color: #f4f4f4;
+	border-radius: 6upx;
+	color: #999999;
+}
+
+.cus-primary {
+	font-size: 30upx;
+	color: #008FF3;
+	height: 40upx;
+	line-height: 40upx;
+	background-color: #e4eeff;
+	align-self: center;
+	padding: 6upx 20upx;
+	border-radius: 6upx;
+}
+
+.cus-complete-green {
+	font-size: 30upx;
+	color: #39C717;
+	height: 40upx;
+	line-height: 40upx;
+	background-color: #E6FCE0;
+	align-self: center;
+	padding: 6upx 20upx;
+	border-radius: 6upx;
+}
+
+.cus-font-tinge {
+	color: #999999;
+}
+
+.cus-no-data {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 130upx;
+	color: #999999;
+}
+
+.cus-no-data text:nth-child(1) {
+	font-size: 160upx;
+	line-height: 190upx;
+}
+
+.cus-dash-line {
+	margin: 40upx -20upx 20upx;
+	border-top: 2upx dashed #eeeeee;
+}
+
+.cus-search-component {
+	display: flex;
+	margin: 20upx;
+}
+
+.cus-search-component input {
+	flex: 1;
+	background-color: #FFFFFF;
+	height: 70upx;
+	padding: 0 20upx;
+	border-radius: 10upx;
+}
+
+.cus-search-component button {
+	height: 70upx;
+	line-height: 70upx;
+	margin-left: 10upx;
+}
+
+.cus-image {
+	padding-left: 20upx;
+	background-color: #FFFFFF;
+}
+/* begin */
+.cus-image-text-col {
+	display: flex;
+	align-items: center;
+}
+
+.cus-image-text-col1 {
+	display: inline-block;
+	width: 70upx;
+	height: 70upx;
+	line-height: 70upx;
+	background-color: #008ff3;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 40upx;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+
+.cus-image-text-col view {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-left: 20upx;
+}
+
+.cus-image-text-col view text:nth-child(1) {
+	font-size: 30upx;
+	font-weight: bold;
+}
+
+.cus-image-text-col view text:nth-child(2) {
+	color: #999999;
+	font-size: 24upx;
+}
+
+.cus-image-text-col text:nth-child(3) {
+	color: #999999;
+}
+/* end */
+
+.cus-active {
+	color: #007AFF;
+}
